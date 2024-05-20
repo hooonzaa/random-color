@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>
-        <button id="genNew">Generate New Random Color</button>
-        <span id="color"></span>
-        <button id="favourite">Favourite Color</button>
-        <button id="showList"></button>
-    </h1>
-    <div id="favouritesList"></div>
+    <div id="loginForm">
+        <input type="text" id="username" placeholder="Username">
+        <input type="password" id="password" placeholder="Password">
+        <button id="loginBtn">Login</button>
+        <button id="registerBtn">Register</button>
+    </div>
+    <div id="colorActions" class="hidden">
+        <h1>
+            <button id="genNew">Generate New Random Color</button>
+            <span id="color"></span>
+            <button id="favourite">Favourite Color</button>
+        </h1>
+        <div id="favouritesList"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
